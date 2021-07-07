@@ -1,0 +1,82 @@
+#contact{
+    /* background-color: cornflowerblue; */
+    background: url(b-nirali.jpg) no-repeat center center/cover;
+    background-blend-mode: multiply;
+    background-color:#4341438f;
+    /* background-opacity: 0.5; */
+    padding: 50px;
+}
+#contact .incontact{
+    padding: 50px;
+}
+#contact .incontact h4{
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+}
+.incontact>p{
+    text-align: center;
+    font-size: 25px;
+    margin: 35px;
+}
+.inincontact{
+    display: flex;
+    padding: 35px;
+    justify-content: space-around;
+}
+.contactleft{
+    color:#ffec04;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.contactleft>div{
+    display: flex;
+    margin: 25px;
+}
+.contactleft>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contactleft>div>i{
+     font-size: 35px;
+}
+.contactright{
+    padding: 25px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.contactright>h6{
+    font-size: 30px;
+    margin-bottom:20px ;
+}
+.contactright>form>div{
+    padding:15px;
+}
+.contactright>form>div>input{
+    width: 325px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.contactright>form>div>textarea{
+    width: 324px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.contactright>form>div>input::placeholder{
+    font-size: 15px;
+}
+
+.contactright>form>div>textarea::placeholder{
+    font-size: 15px;
+}
+
+.contactright>form>div>button{
+      background-color: rgb(18, 209, 209);
+      padding: 10px 30px;
+      border: none;
+      font-size: 20px;
+}
